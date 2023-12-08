@@ -3,7 +3,7 @@
 
 
 
-kodingan ada dibawah 
+#kodingan ada dibawah 
 
 import cv2
 
