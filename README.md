@@ -1,5 +1,10 @@
 # Tubes-Kelompok-5-SG-IMV-2023
 
+
+
+
+kodingan ada dibawah 
+
 import cv2
 
 classifier = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
