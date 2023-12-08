@@ -12,13 +12,13 @@ classifier = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 video_capture = cv2.VideoCapture(0)
 
 while True:
-    # Capture frame-by-frame
+    #frame-by-frame
     ret, frame = video_capture.read()
 
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-    faces = classifier.detectMultiScale(gray)
+    wajah = classifier.detectMultiScale(gray)
 
-    for (x, y, w, h) in faces:
+    for (x, y, w, h) in wajah:
         cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
 
     # output
